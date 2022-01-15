@@ -1,0 +1,5 @@
+*.txt
+!config-example.txt
+
+.vscode/
+*.exe
