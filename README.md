@@ -6,6 +6,8 @@ In particular, this was intended to test the behaviour of Go's http.Server ReadT
 
 It uses a [simple config file](config-example.txt) and can talk HTTPS and HTTP.
 
+If you want to learn more about Go's HTTP server timeouts, I [wrote a blog post](https://crypti.cc/blog/2022/01/15/golang-http-server-timeouts.html) about it.
+
 ```no-hightlight
 $ go run . config-example.txt
 
